@@ -246,8 +246,8 @@ int main()
 	//Model vacas((char*)"Models/vaca/vacas.obj");
 	//Model megalodon((char*)"Models/Dinos/Megalodon.obj");
 	Model agua((char*)"Models/Sea/Sea.obj");
-	//////Model jeep((char*)"Models/Jeep/Jeep2.obj");
-	//Model arboles((char*)"Models/Arbol/Arboles.obj");
+	//Model jeep((char*)"Models/Jeep/Jeep2.obj");
+	Model arboles((char*)"Models/Arbol/Arboles.obj");
 	//Model tiendas((char*)"Models/Tiendas/tiendas2.obj");
 	//Model tricoBotarga((char*)"Models/Dinos/tricoBotarga.obj");
 	//Model rexBotarga((char*)"Models/Dinos/rexBotarga.obj");
@@ -258,8 +258,8 @@ int main()
 	Model pterodactylo_Cuerpo((char*)"Models/Dinos/Pterodactylo/pterodactylo_Cuerpo.obj");
 
 	////Modelos Megalodon
-	//Model megalodonCola((char*)"Models/Dinos/Megalodon/megalodonCola.obj");
-	//Model megalodonCuerpo((char*)"Models/Dinos/Megalodon/megalodonCuerpo.obj");
+	Model megalodonCola((char*)"Models/Dinos/Megalodon/megalodonCola.obj");
+	Model megalodonCuerpo((char*)"Models/Dinos/Megalodon/megalodonCuerpo.obj");
 
 	////Modelos T-rex
 	Model rexCuerpo((char*)"Models/Dinos/Trex/rexCuerpo.obj");
@@ -490,11 +490,11 @@ int main()
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
 		castillo.Draw(lightingShader);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//arboles.Draw(lightingShader);
+		arboles.Draw(lightingShader);
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//tiendas.Draw(lightingShader);
-		///*glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//jeep.Draw(lightingShader);*/
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//jeep.Draw(lightingShader);
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//rexBotarga.Draw(lightingShader);
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -585,18 +585,18 @@ int main()
 		raptorPataDer.Draw(lightingShader);
 	
 		////Megalodon
-		//model = glm::mat4(1);
-		//model = glm::translate(model,MegaPosIni+glm::vec3(movMegaX,0,movMegaZ));
-		//model = glm::rotate(model, glm::radians(rotMega), glm::vec3(0.0f, 1.0f, 0.0f));
-		//model = glm::rotate(model, glm::radians(rotColaMega), glm::vec3(0.0f, 1.0f, 0.0f));
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//megalodonCola.Draw(lightingShader);
-		//model = glm::mat4(1);
-		//model = glm::translate(model, MegaPosIni + glm::vec3(movMegaX, 0, movMegaZ));
-		//model = glm::rotate(model, glm::radians(rotMega), glm::vec3(0.0f, 1.0f, 0.0f));
-		//model = glm::rotate(model, glm::radians(-rotColaMega/2), glm::vec3(0.0f, 1.0f, 0.0f));
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//megalodonCuerpo.Draw(lightingShader);
+		model = glm::mat4(1);
+		model = glm::translate(model,MegaPosIni+glm::vec3(movMegaX,0,movMegaZ));
+		model = glm::rotate(model, glm::radians(rotMega), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotColaMega), glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		megalodonCola.Draw(lightingShader);
+		model = glm::mat4(1);
+		model = glm::translate(model, MegaPosIni + glm::vec3(movMegaX, 0, movMegaZ));
+		model = glm::rotate(model, glm::radians(rotMega), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(-rotColaMega/2), glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		megalodonCuerpo.Draw(lightingShader);
 
 		//
 
