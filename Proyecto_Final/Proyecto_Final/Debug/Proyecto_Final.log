@@ -15,6 +15,7 @@ C:\Users\d_arm\OneDrive\Escritorio\RepositorioT\Proyecto_Jurassic_Park_CGeIHC_Gp
           [
               T=float
           ]
+C:\Users\d_arm\OneDrive\Escritorio\RepositorioT\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(625,23): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\d_arm\OneDrive\Escritorio\RepositorioT\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(747,23): warning C4305: '-=': truncamiento de 'double' a 'float'
 C:\Users\d_arm\OneDrive\Escritorio\RepositorioT\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(831,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
 C:\Users\d_arm\OneDrive\Escritorio\RepositorioT\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(832,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
