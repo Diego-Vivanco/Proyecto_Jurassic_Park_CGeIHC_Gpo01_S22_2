@@ -26,5 +26,11 @@
     <None Include="Shaders\lighting.vs">
       <Filter>Archivos de origen</Filter>
     </None>
+    <None Include="Shaders\anim3.frag">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\anim3.vs">
+      <Filter>Archivos de origen</Filter>
+    </None>
   </ItemGroup>
 </Project>
