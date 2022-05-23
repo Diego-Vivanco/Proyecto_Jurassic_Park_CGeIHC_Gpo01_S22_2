@@ -366,12 +366,20 @@ int main()
 
 	// Load textures
 	vector<const GLchar*> faces;
-	faces.push_back("SkyBox/right.tga");
-	faces.push_back("SkyBox/left.tga");
-	faces.push_back("SkyBox/top.tga");
-	faces.push_back("SkyBox/bottom.tga");
-	faces.push_back("SkyBox/back.tga");
-	faces.push_back("SkyBox/front.tga");
+	
+	//faces.push_back("SkyBox/right.jpg");
+	//faces.push_back("SkyBox/left.jpg");
+	//faces.push_back("SkyBox/top.jpg");
+	//faces.push_back("SkyBox/bottom.jpg");
+	//faces.push_back("SkyBox/back.jpg");
+	//faces.push_back("SkyBox/front.jpg");
+	faces.push_back("SkyBox/front.jpg");
+	faces.push_back("SkyBox/back.jpg");
+	faces.push_back("SkyBox/top.jpg");
+	faces.push_back("SkyBox/bottom.jpg");
+	faces.push_back("SkyBox/left.jpg");
+	faces.push_back("SkyBox/right.jpg");
+
 
 
 	GLuint cubemapTexture = TextureLoading::LoadCubemap(faces);
@@ -555,9 +563,9 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		barosaurus.Draw(lightingShader);
 
-		////T-Rex
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTrasparencia"), 0);
+		//T-Rex
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTrasparencia"), 0);
 		//rex.Draw(lightingShader);
 		model = glm::mat4(1);
 		model = glm::translate(model, RexPosIni + glm::vec3(movRexX,3.5f,movRexZ));
@@ -595,9 +603,9 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		rexPataDer.Draw(lightingShader);
 
-		//////Raptor
-		////glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		////raptor.Draw(lightingShader);
+		////Raptor
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//raptor.Draw(lightingShader);
 		model = glm::mat4(1);
 		model = glm::translate(model, RaptorPosIni + glm::vec3(movRaptorX,0.0f,movRaptorZ));
 		model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(0.0f, 1.0f, 0.0f));
