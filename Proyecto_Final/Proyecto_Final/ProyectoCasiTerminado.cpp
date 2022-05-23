@@ -373,12 +373,20 @@ int main()
 
 	// Load textures
 	vector<const GLchar*> faces;
-	faces.push_back("SkyBox/right.tga");
-	faces.push_back("SkyBox/left.tga");
-	faces.push_back("SkyBox/top.tga");
-	faces.push_back("SkyBox/bottom.tga");
-	faces.push_back("SkyBox/back.tga");
-	faces.push_back("SkyBox/front.tga");
+	
+	//faces.push_back("SkyBox/right.jpg");
+	//faces.push_back("SkyBox/left.jpg");
+	//faces.push_back("SkyBox/top.jpg");
+	//faces.push_back("SkyBox/bottom.jpg");
+	//faces.push_back("SkyBox/back.jpg");
+	//faces.push_back("SkyBox/front.jpg");
+	faces.push_back("SkyBox/front.jpg");
+	faces.push_back("SkyBox/back.jpg");
+	faces.push_back("SkyBox/top.jpg");
+	faces.push_back("SkyBox/bottom.jpg");
+	faces.push_back("SkyBox/left.jpg");
+	faces.push_back("SkyBox/right.jpg");
+
 
 
 	GLuint cubemapTexture = TextureLoading::LoadCubemap(faces);
@@ -562,9 +570,9 @@ int main()
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//barosaurus.Draw(lightingShader);
 
-		////T-Rex
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTrasparencia"), 0);
+		//T-Rex
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTrasparencia"), 0);
 		//rex.Draw(lightingShader);
 		model = glm::mat4(1);
 		model = glm::translate(model, RexPosIni + glm::vec3(movRexX,3.5f,movRexZ));
@@ -602,6 +610,7 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		rexPataDer.Draw(lightingShader);
 
+<<<<<<< HEAD
 		////////Raptor
 		//////glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//////raptor.Draw(lightingShader);
@@ -643,6 +652,46 @@ int main()
 		//model = glm::rotate(model, glm::radians(-rotPataRaptor), glm::vec3(1.0f, 0.0f, 0.0f));
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//raptorPataDer.Draw(lightingShader);
+=======
+		////Raptor
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//raptor.Draw(lightingShader);
+		model = glm::mat4(1);
+		model = glm::translate(model, RaptorPosIni + glm::vec3(movRaptorX,0.0f,movRaptorZ));
+		model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotCuerpoRaptor),glm::vec3(1.0f,0.0f,0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		raptorCuerpo.Draw(lightingShader);
+		//Mandibula
+		model = glm::translate(model, glm::vec3(0.0f, 0.646f, 3.873f));
+		model = glm::rotate(model, glm::radians(rotMandibulaRaptor), glm::vec3(1.0f, 0.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		raptorMandibula.Draw(lightingShader);
+		//PienaIzq
+		model = glm::mat4(1);
+		model = glm::translate(model, RaptorPosIni + glm::vec3(movRaptorX, 0.0f, movRaptorZ));
+		model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotPiernaRaptor), glm::vec3(1.0f, 0.0f, 0.0f));
+		modeltemp3= model = glm::translate(model, glm::vec3(0.813f, -0.116f, -0.225f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		raptorPiernaIzq.Draw(lightingShader);
+		model = glm::translate(modeltemp3, glm::vec3(-0.077f, -1.348f, 0.208f));
+		model = glm::rotate(model, glm::radians(rotPataRaptor), glm::vec3(1.0f, 0.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		raptorPataIzq.Draw(lightingShader);
+		////Pierna derecha
+		model = glm::mat4(1);
+		model = glm::translate(model, RaptorPosIni + glm::vec3(movRaptorX, 0.0f, movRaptorZ));
+		model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(-rotPiernaRaptor), glm::vec3(1.0f, 0.0f, 0.0f));
+		modeltemp4 = model = glm::translate(model, glm::vec3(-0.806f, -0.142f, -0.155f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		raptorPiernaDer.Draw(lightingShader);
+		model = glm::translate(modeltemp4, glm::vec3(-0.199f, -1.345f, 0.016f));
+		model = glm::rotate(model, glm::radians(-rotPataRaptor), glm::vec3(1.0f, 0.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		raptorPataDer.Draw(lightingShader);
+>>>>>>> 04d1bb604f6c911f8920abd25c930bbc9dd49592
 	
 		//////Megalodon
 		//model = glm::mat4(1);
