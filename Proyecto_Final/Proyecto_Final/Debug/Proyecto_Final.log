@@ -1,37 +1,50 @@
 ﻿  ProyectoCasiTerminado.cpp
 C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\modelanim.h(104,44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\modelanim.h(519,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(398,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(699,23): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(729,87): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(739,43): warning C4305: 'argumento': truncamiento de 'double' a 'T'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(409,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(709,23): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(739,87): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(741,127): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(741,107): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(741,87): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(749,43): warning C4305: 'argumento': truncamiento de 'double' a 'T'
           with
           [
               T=float
           ]
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(851,23): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(964,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(965,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(969,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(970,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(972,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(973,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1048,22): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1060,22): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1072,22): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1084,22): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1106,24): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1116,24): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1127,20): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1137,20): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1138,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1148,20): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1158,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1159,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1169,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1178,22): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1187,22): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1198,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(755,43): warning C4305: 'argumento': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(761,43): warning C4305: 'argumento': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(873,23): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(986,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(987,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(991,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(992,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(994,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(995,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1070,22): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1082,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1094,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1106,22): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1128,24): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1138,24): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1149,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1159,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1160,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1170,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1180,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1181,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1191,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1200,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1209,22): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Proyecto_Final\ProyectoCasiTerminado.cpp(1220,19): warning C4305: '+=': truncamiento de 'double' a 'float'
 LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
 soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(etc1_utils.obj)' o en 'C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
 soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\hecto\Desktop\ProyectoFinalCG\Proyecto_Jurassic_Park_CGeIHC_Gpo01_S22_2\Proyecto_Final\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
