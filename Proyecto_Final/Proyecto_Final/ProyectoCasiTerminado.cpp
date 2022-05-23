@@ -45,6 +45,7 @@ glm::vec3 lightPos(0.0f, 0.0f, 0.0f);
 bool active;
 bool anim;
 bool modoDia = true;
+bool resetAnimaciones = false;
 //variables para la animacion del Pterodactylo
 float rotPtero = 0.0f;
 float rotAlasptero = 0.0f;
@@ -851,6 +852,7 @@ void DoMovement()
 		spotlightDir.z += 0.05f;
 	}
 
+
 }
 
 // Is called whenever a key is pressed/released via GLFW
@@ -911,6 +913,10 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 		}
 	}
 
+	if (keys[GLFW_KEY_R])
+	{
+		resetAnimaciones = true;
+	}
 }
 
 void MouseCallback(GLFWwindow* window, double xPos, double yPos)
@@ -932,7 +938,71 @@ void MouseCallback(GLFWwindow* window, double xPos, double yPos)
 }
 
 void animacion()
-{	//Animacion Pterodactylo
+{
+	if (resetAnimaciones)
+	{
+		//variables para la animacion del Pterodactylo
+		rotPtero = 0.0f;
+		rotAlasptero = 0.0f;
+		movPteroX = 0.0f;
+		movPteroZ = 0.0f;
+		r1Ptero = true;
+		r2Ptero = false;
+		r3Ptero = false;
+		r4Ptero = false;
+		r5Ptero = false;
+		desfase1 = 0.0f;
+		desfase2 = 0.0f;
+		aleteoAbajo = true;
+		aleteoArriba = false;
+
+		//variables para la animacion del Megalodon
+		movMegaX = 0.0f;
+		movMegaZ = 0.0f;
+		r1Mega = true;
+		r2Mega = false;
+		r3Mega = false;
+		r4Mega = false;
+		r5Mega = false;
+		rotMega = 0.0f;
+		rotColaMega = 0.0f;
+		aleteoIzq = true;
+		aleteoDer = false;
+
+		//variables para la animacion del Trex
+		movRexX = 0.0f;
+		movRexZ = 0.0f;
+		rotCuerpoRex = 0.0f;
+		rotPiernaRex = 0.0f;
+		rotPataRex = 0.0f;
+		rotMandibulaRex = 0.0f;
+		caminarRex = true;
+		paso1Rex = true;
+		paso2Rex = false;
+		rugidoRex = false;
+		inclinacionAbajoRex = true;
+		inclinacionArribaRex = false;
+
+		//variables para la aniacion del raptor
+		movRaptorX = 0.0f;
+		movRaptorZ = 0.0f;
+		rotCuerpoRaptor = 0.0f;
+		rotPiernaRaptor = 0.0f;
+		rotPataRaptor = 0.0f;
+		rotMandibulaRaptor = 0.0f;
+		caminarRaptor = true;
+		paso1Raptor = true;
+		paso2Raptor = false;
+		comerRaptor = false;
+		inclinacionAbajoRaptor = true;
+		inclinacionArribaRaptor = false;
+		mordidaRaptor = false;
+		mordidaArriba = true;
+		mordidaAbajo = false;
+
+		resetAnimaciones = false;
+	}
+	//Animacion Pterodactylo
 	if (anim)
 	{
 		if (r1Ptero)
